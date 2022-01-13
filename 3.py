@@ -3,6 +3,7 @@ class Tomato:
     # Стадии созревания помидора
     states = {0: 'nothing', 1: 'flower', 2: 'green_tomato', 3: 'red_tomato'}
 
+
     def __init__(self, index):
         self._index = index
         self._state = 0
